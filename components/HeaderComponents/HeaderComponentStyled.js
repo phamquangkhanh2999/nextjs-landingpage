@@ -39,7 +39,7 @@ export const HeaderWrapper = styled.div`
       height: 55%;
       top: 59px;
       width: 100%;
-      padding: 10px 38.2px 0;
+      padding: 10px 22.2px 0;
     }
   }
   .main-nav.is-open {

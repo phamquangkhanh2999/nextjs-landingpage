@@ -79,8 +79,8 @@ export const SliderLeft = styled.div`
     }
     @media screen and (max-width: 767px) {
       width: 100%;
-      /* height: 379.719px; */
-      height: auto;
+      height: 379.719px;
+      /* height: auto; */
       text-align: center;
     }
   }

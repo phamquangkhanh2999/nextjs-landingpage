@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { light } from '../components/theme/index';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const StyledThemeProvider = (props) => {
@@ -21,9 +22,15 @@ function MyApp({ Component, pageProps }) {
     return <></>;
   } else {
     return (
-      <StyledThemeProvider>
-        <Component {...pageProps} />
-      </StyledThemeProvider>
+      <React.Fragment>
+        <Head>
+          <link rel='shortcut icon' href='/favicon.png' />
+          <title>Dpotech</title>
+        </Head>
+        <StyledThemeProvider>
+          <Component {...pageProps} />
+        </StyledThemeProvider>
+      </React.Fragment>
     );
   }
 }
