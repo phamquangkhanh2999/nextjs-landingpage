@@ -54,10 +54,12 @@ export const PartnerStyle = styled.div`
   align-items: flex-end;
   justify-content: center;
   gap: 135px;
-  padding-bottom: 100px;
+  margin-top: 65px;
+  padding-bottom: 250px;
   flex-wrap: wrap;
   @media screen and (max-width: 991px) {
     gap: 80px;
+    padding-bottom: 80px;
   }
   @media screen and (max-width: 480px) {
     gap: 50px;

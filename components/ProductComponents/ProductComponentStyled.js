@@ -118,7 +118,7 @@ export const SliderRight = styled.div`
   }
 
   .footer-slider {
-    margin-top: 24px;
+    margin-top: 32px;
     font-size: 20px;
     padding-bottom: 20px;
     display: flex;

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export const FooterWrapper = styled.div`
   background-color: var(--BackGroundFooter);
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 `;
 export const FooterItems = styled.div`
   color: var(--White);
@@ -78,7 +78,7 @@ export const FooterContent = styled.div`
 
 export const FooterTheLast = styled.p`
   text-align: center;
-  margin-top: 24px;
+  margin-top: 32px;
   color: var(--White);
   font-weight: 400;
   font-size: 16px;
