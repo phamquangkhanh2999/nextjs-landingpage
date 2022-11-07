@@ -51,10 +51,10 @@ export const TitleStyled = styled.h3`
 
 export const PartnerStyle = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   gap: 135px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   flex-wrap: wrap;
   @media screen and (max-width: 991px) {
     gap: 80px;

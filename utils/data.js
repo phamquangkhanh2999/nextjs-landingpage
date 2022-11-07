@@ -19,6 +19,10 @@ const Nguyen_Dang_Minh = require('../assets/image_profile/Nguyen_Dang_Minh.png')
 const Do_Anh_Tu = require('../assets/image_profile/Do_Anh_Tu.png');
 const Bui_Xuan_Ngoc = require('../assets/image_profile/Bui_Xuan_Ngoc.png');
 
+// slider 
+const Gia_Pha = require('../assets/img/GiaPha.png')
+const Life_Story = require('../assets/img/LifeStory1.png')
+
 export const cardList = [
   {
     images: services_digital,
@@ -110,5 +114,22 @@ export const ProfileList = [
     image:Nguyen_Dang_Minh,
     name:"Nguyễn Đăng Minh",
     position:"Technical Manager"
+  },
+]
+
+export const SliderList = [
+  {
+    image:Gia_Pha,
+    title:"Gia phả",
+    desc:"Nền tảng miễn phí giúp gia đình và dòng họ chuyển đổi số đối gia phả. Kèm theo tính năng cho phép trao đổi giữa các thành viên trong dòng họ, chia sẻ ảnh, lưu trữ các sự kiện quan trọng...",
+    type:"web",
+    link_web:"https://giaphaso.vn"
+  },
+  {
+    image:Life_Story,
+    title:"Life Story",
+    desc:"Là nơi lưu trữ khoảnh khắc của cuộc sống thông qua hình ảnh, video, slide cũng như kết bạn và trò chuyện. Chia sẻ khoảnh khắc đặc biệt của cuộc sống với người thân và bạn bè. Biến điện thoại thành khung ảnh số để xem mọi lúc, mọi nơi.",
+    type:"mobile",
+    link_web:"https://play.google.com/store/apps/details?id=com.life_story_mobile"
   },
 ]

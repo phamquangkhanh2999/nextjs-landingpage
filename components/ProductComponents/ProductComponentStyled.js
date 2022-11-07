@@ -61,7 +61,7 @@ export const SliderItem = styled.div`
     width: auto;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
   }
 `;
 
@@ -112,7 +112,7 @@ export const SliderRight = styled.div`
     line-height: 161.52%;
     letter-spacing: 0.015em;
     max-width: 752px;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       font-size: 14px;
     }
   }
@@ -123,7 +123,7 @@ export const SliderRight = styled.div`
     padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       font-size: 14px;
       padding-bottom: 0;
       .link-web {
